@@ -541,6 +541,7 @@ markers:
   - {type: line-break, offset: 1294, content: '', id: KR5c0078_HFL_000-005a04}
   - {type: indent, offset: 1294, content: 　, id: KR5c0078_krp_000-bkkind83}
   - {type: punctuation, offset: 1295, content: (, id: KR5c0078_krp_000-bkkpn1}
+  - {type: voice, offset: 1295, length: 67, name: note, id: n1}
   - {type: punctuation, offset: 1310, content: /, id: KR5c0078_krp_000-bkkpn2}
   - {type: punctuation, offset: 1325, content: ), id: KR5c0078_krp_000-bkkpn3}
   - {type: 'kr:newline', offset: 1325, content: '
@@ -623,4 +624,4 @@ markers:
       ', id: KR5c0078_krp_000-bkkkrnewl110}
   - {type: variant, offset: 1362, length: 0, content: '', WYG: 其所著有道徳指歸論若干卷陳隋之際已其半今所存者止論徳篇因獵其訛舛定為六卷而以其説目冠於端庶存全篇之大義爾谷神子序}
   back: []
-hash: sha256:4d0680a8d644068a20b4c67ce102e9952446143552caa4bdb430809ae83eca1b
+hash: sha256:37c803ae4d1329a7f6e250e2fe2ed1dbb70a18f2238f6acc8685be6777a22cf4

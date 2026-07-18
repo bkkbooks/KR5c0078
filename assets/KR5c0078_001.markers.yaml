@@ -13,6 +13,7 @@ markers:
   - {type: substitution, offset: 2, original: 眞, replacement: 真, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-19545}}
   - {type: variant, offset: 6, length: 5, content: 卷之七原缺, WYG: 論}
   - {type: punctuation, offset: 9, content: (, id: KR5c0078_krp_001-bkkpn1}
+  - {type: 'voice:problem', offset: 9, length: 0, id: KR5c0078_bkk_001-bkkvprob1, source: parens, bucket: front, code: unmatched-open, message: unmatched '(' at offset 9}
   - {type: punctuation, offset: 12, content: /, id: KR5c0078_krp_001-bkkpn2}
   - {type: variant, offset: 13, length: 4, content: 之六蜀郡, WYG: 漢}
   body:
@@ -22,6 +23,7 @@ markers:
       ', id: KR5c0078_krp_001-bkkkrnewl1}
   - {type: line-break, offset: 0, content: '', id: KR5c0078_HFL_001-001a02}
   - {type: indent, offset: 0, content: 　　　　, id: KR5c0078_krp_001-bkkind1}
+  - {type: 'voice:problem', offset: 0, length: 0, id: KR5c0078_bkk_001-bkkvprob2, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 0 with no matching '('}
   - {type: variant, offset: 4, length: 1, content: 字, WYG: 撰説目荘子曰昔者老子之作也變化所由道德爲母効經列首天地爲象上經配天下經配地隂道八陽道九以隂行陽故七十有二首以陽行隂故分爲上下以五行八故上經四十而更始以四行八故下經三十有二而終矣陽道竒隂道偶故上經先而下經後陽道大隂道小故上經衆而下經寡陽道左隂道右故上經覆來下經覆往反覆相過淪爲一形冥冥混沌道爲中主重符列驗以見端緒下經爲門上經爲戸智者見其經効則通乎天地之數隂陽之紀夫婦之配父子之親}
   - {type: page-break, offset: 4, content: '', id: KR5c0078_WYG_001-1b, image: WYG1055/WYG1055-0079d.png}
   - {type: variant, offset: 6, length: 6, content: 平撰谷神子註, WYG: 臣之儀萬物敷矣}
@@ -3150,4 +3152,4 @@ markers:
 
       ', id: KR5c0078_krp_001-bkkkrnewl417}
   back: []
-hash: sha256:7adf0f6b4bea8aad4335a0dab3973c8aa65e6664be607acf9d6ad29163d7ecb9
+hash: sha256:e905c64c674e2f98cefa7b874fed5c17598f1658b727ba2f47195e5876b2056e
